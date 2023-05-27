@@ -1,3 +1,8 @@
+<?php
+    include ('clases/persona.php');
+    $empleado = new persona();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +12,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php include ('scripts/ejercicio1.php'); ?>
 </body>
 </html>
